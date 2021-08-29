@@ -10686,11 +10686,6 @@ h1, .h1 {
   height: 70px;
 }
 
-.logo {
-  color: #262626;
-  font-size: 36px;
-}
-
 .navbar {
   background-color: #F4F3EE;
 }
@@ -10700,8 +10695,10 @@ h1, .h1 {
   color: #262626 !important;
 }
 
-.navbar-toggler-icon {
-  color: #262626 !important;
+.navbar-expand-md {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 a {
