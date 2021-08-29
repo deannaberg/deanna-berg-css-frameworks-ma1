@@ -32,3 +32,9 @@
 
 // Utilities
 @import "../bootstrap-scss/utilities/api";
+
+@import "partials/base";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/grid";
+@import "partials/footer";
