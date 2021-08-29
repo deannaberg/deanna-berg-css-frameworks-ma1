@@ -1,12 +1,10 @@
+@import "base";
+
 .header{
     background-color: $secondary-background;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    max-width: 1200px;
-    padding: 30px;
+    height: 70px;
 }
+
 .logo{
     color: $black;
     font-size: 36px;

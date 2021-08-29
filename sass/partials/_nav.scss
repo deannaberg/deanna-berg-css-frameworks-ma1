@@ -1,16 +1,20 @@
-.nav{
-    ul{
-        display: flex;
-        flex-direction: row;
-        li {
-            padding: 10px;
-            list-style: none;
-        }
-    }
-    a{
-        font-size: 18px;
-        text-transform: uppercase;
-        color: $light-gray;
-    }
-    
+.navbar{
+    background-color:$secondary-background;
 }
+.navbar-brand{
+    font-size: 36px;
+    color: $black !important;
+}
+.navbar-toggler-icon{
+    color: $black !important;
+}
+a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $light-gray !important;    
+}
+
+.active{
+    color: $red !important;
+}
+

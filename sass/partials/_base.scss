@@ -1,16 +1,19 @@
 @import "custom";
 
+
 body{
     background-color: $primary-background;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-main{
-    width: 100%;
-    max-width: 1200px;
 }
 a{
     text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.header__container, .footer__container{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }

@@ -1,1 +1,19 @@
-@import "base";
+@import "custom";
+
+.box{
+    width: 264px;
+    height: 263px;
+    background-color: $secondary-background;
+    border-radius: 15px;
+    box-shadow: $box-shadow;
+}
+
+.box__white{
+    background-color: $white;
+    border: 3px solid $red;
+}
+
+.box__red{
+    background-color: $red;
+    border: 3px solid $white;
+}
